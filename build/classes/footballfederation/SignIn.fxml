@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="footballfederation.SignInController">
+   <children>
+      <TextField fx:id="idTF" alignment="CENTER" layoutX="197.0" layoutY="121.0" prefHeight="34.0" prefWidth="207.0" promptText="Enter ID" />
+      <PasswordField fx:id="passTF" alignment="CENTER" layoutX="196.0" layoutY="177.0" prefHeight="34.0" prefWidth="207.0" promptText="Enter Password" />
+      <Button layoutX="265.0" layoutY="240.0" mnemonicParsing="false" onAction="#siignInButtonOnClick" prefHeight="25.0" prefWidth="71.0" text="Sign In" />
+      <Button layoutX="24.0" layoutY="343.0" mnemonicParsing="false" onAction="#backButtonOnClick" prefHeight="34.0" prefWidth="55.0" text="Back" />
+      <Label layoutX="228.0" layoutY="34.0" text="Sign In" textFill="#2b6e9e">
+         <font>
+            <Font name="Bauhaus 93" size="49.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

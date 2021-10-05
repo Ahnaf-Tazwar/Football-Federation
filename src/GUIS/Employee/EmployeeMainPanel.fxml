@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="493.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIS.Employee.EmployeeMainPanelController">
+   <children>
+      <Button layoutX="132.0" layoutY="174.0" mnemonicParsing="false" onAction="#slalaryButtonOnClick" prefHeight="36.0" prefWidth="87.0" text="Salary Status" />
+      <Button layoutX="393.0" layoutY="174.0" mnemonicParsing="false" onAction="#notificationsButtonOnClick" prefHeight="36.0" prefWidth="102.0" text="Notifications" />
+      <Button layoutX="117.0" layoutY="314.0" mnemonicParsing="false" onAction="#reqLeaveButtonOnClick" prefHeight="36.0" prefWidth="118.0" text="Request For Leave" />
+      <Button layoutX="273.0" layoutY="265.0" mnemonicParsing="false" onAction="#settingsButtonOnClick" prefHeight="36.0" prefWidth="76.0" text="Settings" />
+      <Button layoutX="393.0" layoutY="314.0" mnemonicParsing="false" onAction="#reportButtonOnClick" prefHeight="36.0" prefWidth="102.0" text="Report Account" />
+      <Button layoutX="269.0" layoutY="432.0" mnemonicParsing="false" onAction="#signOutButtonOnClick" text="Sign Out" />
+      <Label fx:id="bannerLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="97.0" layoutY="29.0" prefHeight="63.0" prefWidth="407.0" textFill="#1c5080">
+         <font>
+            <Font name="Poor Richard" size="49.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

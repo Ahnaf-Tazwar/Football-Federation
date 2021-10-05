@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="528.0" prefWidth="737.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="footballfederation.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="328.0" layoutY="298.0" minHeight="16" minWidth="69" />
+      <Button layoutX="138.0" layoutY="143.0" mnemonicParsing="false" onAction="#signInButtonOnClick" text="Sign in" />
+      <Button layoutX="259.0" layoutY="144.0" mnemonicParsing="false" onAction="#registerButtonOnClick" text="Register" />
+      <Button layoutX="383.0" layoutY="143.0" mnemonicParsing="false" onAction="#highlightsButtonOnClick" text="Highlights" />
+      <Button layoutX="516.0" layoutY="140.0" mnemonicParsing="false" onAction="#galleryButtonOnClick" prefHeight="32.0" prefWidth="71.0" text="Gallery" />
+      <Label layoutX="141.0" layoutY="45.0" text="FootBall Federation" textFill="#9e29d0">
+         <font>
+            <Font name="Forte" size="52.0" />
+         </font>
+      </Label>
+      <Label fx:id="showLabel" alignment="TOP_LEFT" layoutX="86.0" layoutY="257.0" prefHeight="149.0" prefWidth="534.0" />
+      <Button layoutX="53.0" layoutY="78.0" mnemonicParsing="false" onAction="#adminButtonOnClick" text="Button" />
+    </children>
+</AnchorPane>

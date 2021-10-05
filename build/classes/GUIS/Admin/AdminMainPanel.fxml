@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIS.Admin.AdminMainPanelController">
+   <children>
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#signOutButtonOnClick" text="Sign Out" />
+      <Button layoutX="145.0" layoutY="109.0" mnemonicParsing="false" onAction="#CreateAccountButtonOnClick" prefHeight="37.0" prefWidth="98.0" text="Create Account" />
+      <Button layoutX="358.0" layoutY="109.0" mnemonicParsing="false" onAction="#deleteAccountButtonOnClick" prefHeight="37.0" prefWidth="98.0" text="Delete Account" />
+      <Button layoutX="145.0" layoutY="255.0" mnemonicParsing="false" onAction="#banAccButtonOnClick" prefHeight="37.0" prefWidth="98.0" text="Ban Account" />
+      <Button layoutX="358.0" layoutY="255.0" mnemonicParsing="false" onAction="#reportsButtonOnClick" prefHeight="37.0" prefWidth="98.0" text="Reports" />
+      <Button layoutX="239.0" layoutY="184.0" mnemonicParsing="false" onAction="#createTournamentButtonOnClick" prefHeight="37.0" prefWidth="123.0" text="Create Tournament" />
+      <Label fx:id="bannerLabel" alignment="CENTER" layoutX="88.0" layoutY="14.0" prefHeight="72.0" prefWidth="424.0" textFill="#1c8cb2">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

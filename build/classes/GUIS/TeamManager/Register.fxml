@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="GUIS.TeamManager.RegisterController">
+   <children>
+      <Button layoutX="21.0" layoutY="361.0" mnemonicParsing="false" onAction="#backButtonOnClick" text="Back" />
+      <Label layoutX="42.0" layoutY="111.0" text="Available Tourament:" />
+      <ComboBox fx:id="tounamentList" layoutX="154.0" layoutY="107.0" prefHeight="25.0" prefWidth="258.0" promptText="Available Tournaments" />
+      <Label layoutX="48.0" layoutY="174.0" text="Registration Payment:" />
+      <Label layoutX="75.0" layoutY="271.0" text="Team ID:" />
+      <Label layoutX="75.0" layoutY="215.0" text="Card No.:" />
+      <TextField fx:id="cardNoTF" layoutX="125.0" layoutY="211.0" />
+      <TextField fx:id="pinTF" layoutX="388.0" layoutY="211.0" />
+      <Label layoutX="366.0" layoutY="215.0" prefHeight="17.0" prefWidth="22.0" text="PIN:" />
+      <TextField fx:id="teamIDTF" layoutX="125.0" layoutY="267.0" />
+      <Button layoutX="422.0" layoutY="332.0" mnemonicParsing="false" onAction="#comfirmButtonOnClick" prefHeight="42.0" prefWidth="136.0" text="Comfirm Registration" />
+   </children>
+</AnchorPane>

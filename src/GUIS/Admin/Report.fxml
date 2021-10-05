@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="590.0" prefWidth="681.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="GUIS.Admin.ReportController">
+   <children>
+      <TableView fx:id="reasonTable" layoutX="14.0" layoutY="95.0" prefHeight="462.0" prefWidth="444.0">
+        <columns>
+          <TableColumn fx:id="nameTC" minWidth="148.0" prefWidth="220.0" text="Name" />
+          <TableColumn fx:id="accIDTC" prefWidth="112.0" text="Account ID" />
+            <TableColumn fx:id="accTypeTC" prefWidth="111.0" text="Account Type" />
+        </columns>
+      </TableView>
+      <Button layoutX="503.0" layoutY="265.0" mnemonicParsing="false" onAction="#reasonButtonOnClick" prefHeight="47.0" prefWidth="122.0" text="Reporting Reason" />
+      <Button layoutX="529.0" layoutY="515.0" mnemonicParsing="false" onAction="#backsButtonOnClick" prefHeight="28.0" prefWidth="71.0" text="Back" />
+   </children>
+</AnchorPane>

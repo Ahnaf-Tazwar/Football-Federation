@@ -1,0 +1,5 @@
+1. Delete and Ban - add them to menubar
+2. Tournaments
+	tournament name
+	tournament type
+	

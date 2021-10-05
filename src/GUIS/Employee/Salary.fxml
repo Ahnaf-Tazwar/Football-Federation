@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIS.Employee.SalaryController">
+   <children>
+      <Label layoutX="36.0" layoutY="88.0" text="Monthly Salary:" />
+      <Label layoutX="41.0" layoutY="139.0" text="Total Income:" />
+      <Label layoutX="42.0" layoutY="200.0" text="Yearly Bonus:" />
+      <Label fx:id="molnthlyLabel" layoutX="118.0" layoutY="88.0" prefHeight="17.0" prefWidth="201.0" />
+      <Label fx:id="yearlyLabel" layoutX="118.0" layoutY="139.0" prefHeight="17.0" prefWidth="201.0" />
+      <Label fx:id="bonusLabel" layoutX="118.0" layoutY="200.0" prefHeight="17.0" prefWidth="201.0" />
+      <Button layoutX="23.0" layoutY="357.0" mnemonicParsing="false" onAction="#backButtonOnClick" prefHeight="29.0" prefWidth="54.0" text="Back" />
+   </children>
+</AnchorPane>
